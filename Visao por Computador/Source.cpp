@@ -292,11 +292,6 @@ int main(void) {
 		vc_image_free(image_hsv);
 		vc_image_free(image_segmented);
 		vc_image_free(image_erode);
-
-
-
-
-
 		/* Exibe a frame */
 		cv::imshow("VC - VIDEO", frame);
 
