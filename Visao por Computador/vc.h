@@ -57,6 +57,7 @@ int High_Threshold(IVC *src, IVC *dst, int Threshold);
 int vc_binary_dilate(IVC *src, IVC *dst, int kernel);
 int vc_etiquetagem(IVC *src, IVC *dst);
 
+
 OVC *vc_binary_blob_labelling(IVC *src, IVC *dst, int *nlabels);
 int vc_binary_blob_info(IVC *src, OVC *blobs, int nblobs);
 int vc_gray_histogram_show(IVC *src, IVC *dst);
